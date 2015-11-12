@@ -1,0 +1,112 @@
+\*------------------------------------*/
+
+*------------------------------------*\
+    NAV
+\*------------------------------------*/
+/* *{
+	margin:0px;
+	padding:0px;
+}*/
+div {
+    border: 1px solid Chocolate;
+}
+
+  html {
+	  background-color:#0000FF;
+
+
+}
+/*.ProjectMenu h3 {	
+		float:left;
+		text-align:center;
+		padding-top:1rem;
+		width: 20rem;
+		height: 5rem; 
+		box-sizing: border-box;
+		border-radius:1rem;
+		border: 1px solid #ffffff;
+		background-color:#0000FF;
+		font-family: "Gentium Book Basic", Georgia, serif;
+		color:#ffffff;
+		font-weight: bold;
+				
+}*/
+
+.Menu ul li {
+		list-style-type:none;
+		font-size:1.5rem;
+
+}
+
+/*** Dropdown Boxes Positioning ***/
+
+.Menu li {	
+		float:left;
+		text-align:center;
+		position:relative;
+		width:20rem;
+		height:3rem;
+		color:#ffffff;
+		list-style-type:none;
+		
+}
+/** Anchor Tags In Boxes **/
+
+.Menu a {
+		float:left;
+		width:20rem;	
+		height:3rem; 
+		line-height:2rem;
+		display:block;
+		text-decoration:none;
+		background-color:#0000FF;
+		border:1px solid #ffffff;
+		border-radius:5rem;		
+		text-align:center;
+		padding-top:0.25rem;
+		font-family: "Gentium Book Basic", Georgia, serif;
+		color:#ffffff;
+		font-weight: bold;
+	
+}
+		/* Anchor Bottom Margin keepthem boxes attached to the top */
+
+
+.Menu .SubMenu a {
+		margin-bottom:0.5rem;
+}
+
+.Menu li:hover > a {
+		background-color:#cfc;
+		border-radius:5rem;
+}
+
+.Menu li :hover a:hover {
+		background-color:#ff0;
+		border-radius:5rem;
+}
+
+.Menu ul.SubMenu {
+		margin-top:3rem;
+		display:none;  /** Option: none */
+		color:#fff;
+		position:absolute;		
+} 
+
+.Menu  li:hover  .SubMenu {
+		display:block;
+}
+
+.Menu .SubMenu li:hover  {
+		display:block;
+}
+
+.DownArrow {
+		position:absolute;
+		top:0.5rem;
+		right:3rem;
+		color:red;
+}
+
+
+

@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>index.html</title>
+	<meta charset="UTF-8">
+	<meta name="author" content="JoeCalderon">
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Style_2.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Roboto'>
+	
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://gitcdn.github.io/bootstrap-toggle/2.2.0/css/bootstrap-toggle.min.css">
+	
+	<!-- jQuery library-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.0/js/bootstrap-toggle.min.js"></script>
+
+    <!--link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"-->
+    <!--link rel="icon" type="image/png" href="favicon_name.png" /-->
+    <!-- or -->
+    <!--link rel="shortcut icon" type="image/x-icon" href="src/img/favicon.ico"-->
+</head>
+
+	<body>
+<!---------------------------------------------------->
+<div class="container">		
+    <!--div class="header">
+	     <header>
+		      <h1>Joe Calderon Real Estate<span>DRE License:
+						<a href="http://www2.dre.ca.gov/PublicASP/pplinfo.asp" 
+						    target="_blank">01228369</a></span>
+					    <img src="src/img/EQHousing.jpg" 
+					       width="50" height="25"
+           	                 alt="San Diego Association Of Realtors - Equal Housing Opportunity">
+			  </h1>
+         </header>
+	</div-->
+			
+<!--NavigationBar-->	
+
+<nav class="navbar">
+     <div class="container-fluid">
+         <div class="navbar-header">
+             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                 <span class="icon-bar"> </span>
+                 <span class="icon-bar"> </span>
+                 <span class="icon-bar"> </span>                        
+             </button>
+                 <a class="navbar-brand" href="#"><strong>Home</strong></a>
+         </div>
+     <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+               <li class="active"><a href="#"><strong>Website</strong></a></li>
+               <!--li><a href="#">Page 1</a></li>
+               <li><a href="#">Page 2</a></li>
+               <li><a href="#">Page 3</a></li-->
+          </ul>
+	   
+          <ul class="nav navbar-nav navbar-right">
+      	       <li class="dropdown">
+			        <a href="#" class="dropdown-toggle" 
+				         data-trigger="hover" 
+			                  data-toggle="dropdown">Contact Me  <span class="caret"> </span></a>   	
+				   
+          <ul class="dropdown-menu">
+               <li style="text-align: left; padding-left: 10px;
+                    padding-top: 5px;"><strong><em>TEL#:</em></strong></li>
+                    <ul>
+            	 	     <li style="padding-top:10px;"><strong>951-816-7457</strong></li>
+                    </ul>	
+                         <li style="text-align: left; padding-left: 10px; padding-top:15px;">
+                    	     <strong><em>FAX#:</em></strong></li>
+                    <ul>
+                 	     <li style="padding-top:10px"><strong>866-727-3749</strong></li>
+                    </ul>
+                         <li style="text-align: left; padding-left: 10px;padding-top:15px;">
+            	             <strong><em>EMAIL:</em></strong></li>
+                    <ul style="padding-right: 20px; padding-top:12px;">
+                 	     <li><a href="#"><strong>joecalderonjr@yahoo.com</strong></a></li>
+                    </ul>	
+                         <li style="text-align: left; padding-left:10px; padding-top:15px;">
+            	             <strong><em>OFFICE:</em></strong></li>
+                    <ul style="text-align: left; padding-left: 40px; padding-top:12px;">
+                 	     <li><strong>CalderonAssociates</strong></li>
+                 	     <li style="padding-top:10px;">32383 Spun Cotton Dr</li>
+                 	     <li style="padding-top:10px; padding-bottom:5px">Winchester, CA 92596</li>
+                    </ul>	
+
+          </ul>     
+       </ul>
+  </div>      	      	
+</div>
+</nav>
+
+<!--EndOfNavigationBar-->	
+
+<!--HeadingContent-->
+
+<div class="Image">							
+		<img src="src/img/IMG_4222.png" alt="ABOUT ME" 
+			class="img-responsive, img-circle"
+				style="width:150px;height:113px">
+	  
+		<header>
+			<h1 class="MastHead-Heading"><a href="#AboutMe">About Me</a></h1>
+		</header>
+</div>
+
+		<p>
+			<header>
+		      <h1 class="CompanyID">Joe Calderon Real Estate<span class="BRE">BRE License:
+						<a href="http://www2.dre.ca.gov/PublicASP/pplinfo.asp" 
+						    target="_blank">01228369</a></span>
+					    <img src="src/img/EQHousing.jpg" 
+					       width="50" height="25"
+           	                 alt="San Diego Association Of Realtors - Equal Housing Opportunity">
+			  </h1>
+			  <h3 class="Heading-3"><strong><em>Home is Family Life, Love, Happiness, Strength & Stability</em></strong></h3>
+			  <h4 class="TagLine">I can help you, make it happen for you</h4> 
+			</header>
+		</p>	
+	<!--HeadingContent-->
+	
+	<!----FeaturedHomesSection--->
+<div>
+	<h1 class="Homes">Featured Homes</h1>
+</div>	
+		<br>
+<div class="row">
+	<div class="col-md-3">
+		<ul class="HomeListings">
+			 <img src="src/img/IMG_0018.png" alt="SOLD" 
+                 class="img-responsive, img-rounded"
+                       style="width:150px;height: 113px">
+                           <p><a class="hometag" href="#" data-toggle="tooltip" data-placement="bottom"
+                                    title="Check me out"><strong><em>Manteca, CA</em></strong></a></p>
+	</div>
+	
+	<div class="col-md-3">									
+			 <img src="src/img/DSC00002.png" alt="SOLD" 
+                 class="img-responsive, img-rounded"
+                       style="width:150px;height:113px">
+                           <p><a class="hometag" href="#" data-toggle="tooltip" data-placement="bottom"
+                                     title="Check me out"><strong><em>La Jolla, CA</em></strong></a></p>
+	</div>
+
+	<div class="col-md-3">	
+			 <img src="src/img/DSC00068.png" alt="SOLD" 
+                 class="img-responsive, img-rounded"
+                       style="width:150px;height:113px">
+                           <p><a class="hometag" href="#" data-toggle="tooltip" data-placement="bottom"
+                                     title="Check me out"><strong><em>San Jose, CA</em></strong></a></p>	
+	</div>
+
+	<div class="col-md-3">
+			<img src="src/img/DSC00008.png" alt="SOLD" 
+                 class="img-responsive, img-rounded"
+                       style="width:150px;height:113px">
+                           <p><a class="hometag" href="#" data-toggle="tooltip" data-placement="bottom"
+                                      title="Check me out"><strong><em>Lathrop, CA</em></strong></a></p>
+	</div>
+</div>
+		<!----EndOfFeaturedHomesSection--->
+
+		<!----DropDownMenuSection--->
+	<div>	
+		<ul class="Menu">
+			<li><a href="#Resume">My Resume'</a> <!--span class="DownArrow">&#9660;</span-->
+				<!--ul class="SubMenu">
+					<li><a href="#">Resume'</a></li>
+				</ul-->	
+			</li>	
+	
+			<li><a href="#">My Projects<span class="DownArrow">  &#9660;</span></a>   <!-- &#9660; -->
+						<ul class="SubMenu">
+							<li><a href="http://codepen.io/joecalderonjr/pen/VLEEvR?editors=110"target="_blank">CodePenProject_1</a></li>
+							<li><a href="http://joecalderonjr.github.io/Genesis/"target="_blank">StartUpLPC</a></li>
+							<li><a href="#">Calderon&Associates;</a></li>
+							<li><a href="#">TBD</a></li>
+							<li><a href="#">TBD</a></li>
+							<li><a href="#">TBD</a></li>
+							<li><a href="#">TBD</a></li>
+						</ul>		
+			</li>
+		</ul>
+	</div>
+
+		<!----FooterSection--->	
+<section>
+  <div class="footer">
+   <footer>
+    <ul>
+		<li><a href="#">Google+</a></li>
+		<li><a href="#">Twitter</a></li>
+		<li><a href="#">Github</a></li>
+    </ul>  
+    <p>
+	<em><strong>Copyright by JoeCalderon</strong></em>
+	</p>
+   </footer>
+  </div>
+</section>
+		<!----FooterSection--->	
+
+		<!---------AboutMeSection-------------------------->
+<section class="AboutMeHead">
+		<h1 id="AboutMe">All About Me
+</section>
+
+<section class="IntroSection">
+  <h1>Introduction</h1><a href="#">Home</a>
+  <p>
+    <strong>Hello,</strong> I am called <strong>Joe,</strong> my birth name is <strong><em>Joseph M Calderon, Jr.</em></strong> For the past eight years, my wife and I are current residents of Winchester, California. We were initially from the Bay Area, San Jose, California to be precise. I have more than 20 years
+    experience in the field of data processing. From the current undertaking Front End Web Site development, Picture Archiving and Communication Systems (PACS) administration, COBOL/VSAM application development, and production support system.
+  </p>
+</section>
+
+<section class="OriginSection">
+  <h1>My Origin</h1><a href="#">Home</a>
+  <p>
+    My origin is the Philippine Island of central Luzon from a little town called Cavite City located in the historic province of Cavite, the root of the Philippine independence movements. Because of its strategic location it was vital for both american and filipino soldiers to defend the city against the Japanese occupation, as consequence the city suffered devastations from both warring parties, Americans and Japanese. Situated
+    in Cavite City were two U.S. bases, a U.S. Army airborne battalion, and Sangley Point, a U.S. Naval Air Station where local non-US citizen between the ages of 18 - 32 can be recruited by the U.S. government to join the United States Navy, which was a great opportunity
+    that could not be missed for someone like me with desires to work abroad and see the world to boot.
+  </p>
+</section>
+
+<section class="WhatIEnjoySection">
+	 <h1>What I Enjoy</h1><a href="#">Home</a>
+  <p>
+    I enjoy live light broadway opera musical shows, easy listening music, spectator sports (Raiders, A's and The Sharks), gardening, and fishing. I had a dream job with VISA International where I was a telecommuter for eight years. Those were my very productive years as well.
+  </P>
+</section>
+
+<section class="MoreOfMeSection">
+  <h1>More About Me</h1><a href="#">Home</a>
+  <h2>My Life, My Struggles, My Dream Job</h2> 
+  <p class="Paragraph-1">
+    I am a Vietnam era veteran, during the conflict I served with the United States Navy Amphibious Construction Battalion homeported in Yokosuka, Japan. After my honorable discharge from the service my wife and I settled in Pacifica, California, attended
+    night classes at Skyline Community College in San Bruno. During the day I worked as an Electric Accounting Machine operator. Upon earning an Associate in Arts degree in business administration, My family, my wife and a newborn baby boy moved to San
+    Jose, CA. While working nights and attending school during the day I managed to earn a Bachelor's Degree with a political science major at San Jose State University. 
+ </p>
+  <p class="Paragraph-2">
+    By this time I was working as a computer operator. Overtime, I was able to transition
+    from computer operator to programmer analyst. I am proficient with COBOL/VSAM, and IBM utilities. I was employed by World Savings and Loan as manager, Quality Assurance. During the Y2K heyday, I was recruited by headhunters and ended up workng for
+    VISA International in Foster City, CA as a Sr Systems Analyst with the Settlement Service and Application Testing Department.
+</p>
+<p class="Paragraph-3">
+    In addition, I am a Real Estate Broker, license #01228369 with the California Bureau of Real Estate since
+    1998, and I have a Master's Degree in Management Information Systems from the University of Phoenix.
+  </p>
+</section>
+	
+			<!-----------------EndOfAboutMeSection-------------------------->
+
+<section class="MyResumeHead">
+		<h1 id="Resume">My Resume'</h1>
+</section>
+
+<section class="SkillSetSection">
+
+	<h1>COMPUTER SKILLS</h1><a href="#">Home</a>	
+		<h2>Languages</h2>
+		   <ul class="Proficiency">
+				<li>Proficiency: Assembly, COBOL/VSAM, JCL/PROC, CCW, IBM mainframe utilities.</li>
+				<li>Familiar: HTML5, CSS, JavaScript.</li>
+			</ul>
+		<h2>Softwares</h2>
+			<ul class="Softwares">			
+				 <li>AGFA IMPAX Client, IMPAX Service Tools, Talk-Tech, Dragon NaturallySpeaking, VISTA-RIS, DICOM, CPRS</li> 
+				 <li>MS Office, Visio, Word, Excel, Access, Outlook, PowerPoint, MS Visual C## Studio</li>
+				 <li>IBM Utilities, TSO, ISPF, CA7-11, CA Products, RDMS (Batch/Online) CMS/Xedit</li>				
+				 <li>Platforms: MS Windows XP, MS Vista, MS Windows 7, MS Windows 8, MVS, MVT</li> 
+				 <li>Interact, XEROX 9700/8700/3700/2700, IBM Advance Printing Systems.</li>
+			</ul>
+</section>
+
+<section class="WorkXpSection">
+	<h1>WORK EXPERIENCE</h1><a href="#">Home</a>
+	<h2>PACS Administrator	8/2008 – 6/2014, VA Medical Center, Long Beach, CA</h2>
+	
+        <p>I function as a subject-matter expert (SME) across PACS system administration, providing systems, technical, training, 
+		and customer support; Troubleshoot areas of concern, perform preventive maintenance relative to PACS system administration. 
+		Ensure system connectivity between the PACS system and medical modalities, thus providing a 24/7 reliability of service 
+		to diagnostic, clinical sites, outlying primary care workstations, and emergency room medical devices.</p>
+		<br>
+        <p>Conduct a dialogue with medical doctors, service department chiefs, staff and resident radiologists, modality technologist
+		and clinical primary care provider to help optimize employment of the PACS systems and peripherals throughout the critical
+		areas of patient care. Liaise with vendors to acquire, install, configure and resolve PACS related issues with medical modalities.
+       Observe adherence of HIPAA protocol with regards to workplace security, and handling sensitive patient information, 
+	   in addition;</p>
+	   <br>
+	<ul>
+		<li>Monitor and ensure full uptime/ connectivity of 13 diagnostic stations, and approximately 20 clinical stations 
+including regular network upgrades and modality configurations.</li>
+		<li>Split, merge, duplicate studies/image requiring specialized handling.</li>
+		<li>Implement, configure, set user classifications and resolve issues with voice recognition systems (VRS), 
+split compromised digital images, sync up study in IMPAX Client, Talk-Tech and VISTA-RIS.</li>
+		<li>Convert analog film to digital format via VIDAR digitizer system for on-screen viewing and storage.</li>
+	</ul>
+</section>
+
+<section class="ProgAnalSect9705">
+	<h1>Programmer Analyst</h1><a href="#">Home</a>
+    <h2>1/1997 – 3/2005, VISA International, Foster City, CA</h2>
+	<ul>
+		<li>Developed test plans, test cases, data matrices. Execute test plans, and test cases for changes affecting 
+		the VISA fee file, the Edit Package system to test pre-production and modified systems, 
+		including System Development Life Cycle (SDLC) projects.</li>
+		<li>Developed test tools to validate test results. Provide maintenance support for Base2 testing platforms.</li>
+		<li>Liaised closely with users and stakeholders to gather functional objectives, and with developers to assess technical requirements, and to establish project timeline deliverables and acceptance criteria.</li>
+		<li>Worked as team leader, or with teams on numerous VISA business enhancement projects for the VISA core systems releases. 
+		<li>Ensure projects are on schedule, and properly executed in line with timeline and scope, within budget and within 
+		the business technical and functional requirements.</li>
+	</ul>
+</section>
+
+<section class="ProgAnalSect9397">
+	<h1>Programmer Analyst</h1><a href="#">Home</a>
+         <h2>11/1993 – 1/1997, World Savings and Loans, San Antonio, TX</h2>
+		 
+	<ul>
+		<li>Manager, Quality Assurance. Tasked to provide a QA environment to perform quality testing of new and modified systems prior to migration to production.</li>
+		<li>Designed, developed and implemented a sterile QA environment, employing scripted JCL procedures (PROC), and a combination 
+of available software, TSO Editor, Clist/ISPF panels, API (Application Program Interface in COBOL) with extensive use of available 
+IBM utilities, totally replacing the manually intensive and error prone system in place, thus achieving a 99.9% error-free system.</li>
+		<li>Managed five Systems Analyst, conduct annual performance evaluation, provide career path guidance, and training to help develop their growth.</li>
+	</ul>
+</section>
+
+<section class="EdSection">
+<h1>EDUCATION</h1><a href="#">Home</a>
+
+	<h2>University Of Phoenix, April 13, 2012, Murrieta, CA </h2><p>Master Of Information Systems</p>
+	<h2>San Jose State University, Dec 21, 1984, San Jose', CA </h2><p>Bachelor Of Arts, Political Science</p>                                                                    
+	<h2>Skyline College, June 13, 1973, San Bruno, CA </h2><p>Associate In Arts, Business Administration</p>                                                                                                        
+
+</section>		
+		
+<!--EndOfCoreContent-->
+
+	</body>
+ </html>
